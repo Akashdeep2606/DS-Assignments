@@ -1,9 +1,9 @@
 #include<iostream>
-using namespace std;
+using namespace std;               
 struct Node{
     int data;
     Node* next;
-};
+};                                                                
 void display(Node* head) {
     Node* temp = head;
     while (temp != NULL) {
@@ -13,8 +13,8 @@ void display(Node* head) {
     }
     cout << endl;
 }
-int deleteOccurrences(Node*& head,int key){
-         int count=0;
+int deleteOccurrences(Node*& head,int key){                       
+         int count=0;                               
          // Case 1: If key is at head
     while (head != NULL && head->data == key) {
         Node* temp = head;

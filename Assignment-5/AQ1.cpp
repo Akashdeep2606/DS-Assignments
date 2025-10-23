@@ -3,7 +3,7 @@ using namespace std;
 struct Node{
     int data;
     Node* next;
-};
+}; 
 Node* head=NULL; //global head pointer
 // Insert at beginning
 void insertbegin(int value){
@@ -95,16 +95,16 @@ void deletespecific(int key){
         delete del;
     }
 }
-void searchNode(int key){
+void searchNode(int key){                                                                         
     Node* temp=head; int pos=1;
-    while(temp!=NULL){
-        if(temp->data==key) {cout<< key << "found at position " << pos << endl;
+    while(temp!=NULL){                                            
+        if(temp->data==key) {cout<< key << "found at position " << pos << endl;                 
         return;
-    }
+    }                                     
    temp=temp->next;
    pos++;
 }
-}
+}                                                                                                    
 void display(){
     Node* temp= head;
     while(temp!=NULL){
