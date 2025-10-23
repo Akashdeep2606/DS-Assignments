@@ -1,0 +1,2 @@
+The output of the given program is 10000 
+as if we partially initialize an array , all other elements are automatically initialized to zero
