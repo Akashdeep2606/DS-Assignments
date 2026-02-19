@@ -1,0 +1,27 @@
+# Ignore compiled files
+*.out
+*.o
+*.obj
+*.exe
+
+# Ignore build directories
+/build/
+/bin/
+/debug/
+/dist/
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.suo
+*.user
+*.db
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore backup files
+*~
+*.swp
